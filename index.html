@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" media="screen and (max-width: 530px)" href="phone.css">
+    <link rel="stylesheet" media="screen and (max-width: 800px)" href="tablet.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <nav class="navbar">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#services">Services</a></li>
+            <li class="btn"><a href="#contact">Contact Me</a></li>
+        </ul>
+    </nav>
+
+    <section id="home">
+        <div class="container">
+            <div class="hero-text">
+                <h3>Hi, There!</h3>
+                <h1>I Am<span class="input"></span></h1>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem ad mollitia voluptatem earum harum sunt aa enim asperiores!</p>
+                <div class="social">
+                    <a href="#"><i class="fa-brands fa-facebook"></i></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="#"><i class="fa-brands fa-dribbble"></i></i></a>
+                </div>
+                <button type="button">Hire Me</button>
+            </div>
+    </section>
+
+    <section id="about">
+        <h1 class="headings">ABOUT ME</h1>
+        <div id="pic">
+            <img src="me.jpg" alt="">
+            <div id="intro">
+                <h2>CHIJINDU CHIKELU</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus accusamus enim sunt aut quae, magnam commodi corrupti culpa nihil quibusdam, debitis voluptates voluptatum nam autem. Ab mollitia, omnis totam officia, amet reprehenderit repellat distinctio quia delectus cumque debitis blanditiis. Similique molestias qui repudiandae tempore numquam error eum beatae, expedita debitis saepe fugiat delectus sapiente suscipit vitae aliquam dolor. Voluptates suscipit modi qui, quisquam quis aliquid quae in. Ipsa temporibus deleniti quisquam quis quae, alias veniam harum perspiciatis doloribus, porro itaque id nobis maxime fugiat quia velit placeat animi veritatis optio, voluptatibus illo? Error quisquam unde maxime suscipit quis quas aperiam.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio">
+        <h1 class="headings">PORTFOLIO</h1>
+        <div class="gallery">
+            <img src="Portfolio/code.jpg" alt="">
+            <img src="Portfolio/helloworld.jpg" alt="">
+            <img src="Portfolio/bracket.jpg" alt="">
+            <img src="Portfolio/pad.jpg" alt="">
+            <img src="Portfolio/ilovecoding.jpg" alt="">
+            <img src="Portfolio/list.jpg" alt="">
+
+        </div>
+    </section>
+
+    <section id="services">
+        <h1 class="headings">SERVICES</h1>
+        <div class="row">
+            <div class="box">
+                <img src="Services/web1.png" alt="">
+                <h1 class="headings">Website Design</h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam eos fugiat voluptas voluptatem, soluta possimus omnis, quam repudiandae consequuntur distinctio sint commodi praesentium inventore, enim optio repellat ipsa perspiciatis! Exercitationem.</p>
+            </div>
+            <div class="box">
+                <img src="Services/UI.png" alt="">
+                <h1 class="headings">UX/UI <br> Design</h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam eos fugiat voluptas voluptatem, soluta possimus omnis, quam repudiandae consequuntur distinctio sint commodi praesentium inventore, enim optio repellat ipsa perspiciatis! Exercitationem.</p>
+            </div>
+            <div class="box">
+                <img src="Services/digital.png" alt="">
+                <h1 class="headings">Digital Marketing</h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam eos fugiat voluptas voluptatem, soluta possimus omnis, quam repudiandae consequuntur distinctio sint commodi praesentium inventore, enim optio repellat ipsa perspiciatis! Exercitationem.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h1 class="headings">CONTACT ME</h1>
+        <form action="mailto:henryjide087@gmail.com" class="form">
+            <input type="text" name="name" class="input" placeholder="Enter Your Name">
+            <input type="email" name="email" class="input" placeholder="Enter Your Email">
+            <textarea name="msg" id="msg" cols="30" rows="10" placeholder="Enter Your Message"></textarea>
+            <input type="submit" value="SEND" id="send">
+        </form>
+    </section>
+
+    <section>
+        <div class="bottom">
+            <p>(c) 2022 Nigeria - All Rights Reserved.</p>
+        </div>
+    </section>
+
+
+    <script src="app.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+        var typed = new Typed(".input", {
+            strings:["Chijindu Chikelu.", "a Web Developer.", "a UX Desinger.", "an Editor."],
+            typeSpeed: 70,
+            backSpeed: 60,
+            loop:true
+        });
+    </script>
+</body>
+</html>
